@@ -1,0 +1,123 @@
+@font-face {
+    font-family: AgsainaMarino;
+    src: url(../fonts/agsaina-marino/AngsainaMarion/AgsainaMarino.woff);
+    src: url(../fonts/agsaina-marino/AngsainaMarion/AngsainaMarion.otf);
+    src: url(../fonts/agsaina-marino/AngsainaMarion/AngsainaMarion.ttf);
+}
+
+@font-face {
+    font-family: HeavyData;
+    src: url(../fonts/heavy-data/heav.ttf);
+}
+
+*{
+    color:white;
+    font-family: AgsainaMarino, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+:root{
+    margin: auto;
+    background-color: black;
+    background: url("../images/pexels-audrius-vizbaras-16052069.jpg") no-repeat;
+}
+
+
+
+header{
+    display:flex;
+    justify-content: space-between;
+    height:80px;
+    /* background-color: darkblue; */
+
+    border-bottom: 1px white solid;
+    letter-spacing: .3rem;
+}
+
+h1{
+    display: flex;
+    align-self: center;
+    padding-left: 50px;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+nav{
+    display:flex;
+}
+
+nav ul{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    min-width: 300px;
+    
+}
+
+nav ul li{
+    font-size: 20px;
+    list-style: none;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    font-size: 125%;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+
+    /* border: 2px green solid; */
+}
+
+main h2{
+    display: flex; 
+    /* font-family: HeavyData; */
+    font-size: 4em;
+    align-self: center;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    /* text-decoration: underline; */
+    /* text-orientation:sideways; */
+    order: 5;
+    border-left: 2px white solid;
+    letter-spacing: .3rem;
+}
+
+main section{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+    align-content: center;
+    background: linear-gradient(to right, rgba(255,255,255,.1), rgba(255,255,255,0), rgba(255,255,255,0) );
+
+    /* border: 2px red solid; */
+}
+
+main p{
+    display: flex;
+    align-self: center;
+    max-width: 30vw ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main img{
+    display: flex;
+    /* align-self: flex-end; */
+    margin: 10px;
+    width: 10vw;
+    border-radius: 25%;
+    border: 5px rgba(67, 63, 63, 0.911) double;
+    box-shadow: 3px 3px 5px rgba(20, 20, 20, 0.8);
+
+}
+
+footer{
+    border:2px blue solid;
+}
