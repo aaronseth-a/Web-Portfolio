@@ -1,4 +1,7 @@
 # Aaron's Portfolio
+
+## Description
+
 This brief portfolio contains some examples of work I've done on sites both during and before I started the course. While the earlier work may seem more advanced, it was done using tools available to most people to help them make beautiful sites. The later work was done using coding of html, javascript and css as taught in the course.
 
 ## Challenge Requirements
